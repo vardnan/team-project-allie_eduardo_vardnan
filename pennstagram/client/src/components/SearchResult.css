@@ -1,0 +1,39 @@
+/* SearchResult.css */
+
+.search-result {
+    display: flex;
+    align-items: center;
+    padding: 5px; /* Reduce the padding to make the box smaller */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .profile-image {
+    width: 30px; /* Reduce the profile image width */
+    height: 30px; /* Reduce the profile image height */
+    border-radius: 50%; /* Creates a circular profile image */
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .user-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .follow-button {
+    padding: 5px 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

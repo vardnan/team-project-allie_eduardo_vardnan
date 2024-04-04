@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Like button matches snapshot 1`] = `
+<div>
+  <button
+    className="likeButton"
+    id="unliked"
+    onClick={[Function]}
+  >
+    Like
+  </button>
+</div>
+`;

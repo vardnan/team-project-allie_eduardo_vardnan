@@ -1,0 +1,103 @@
+#activity-feed {
+    display: flex;
+    flex-direction: column;
+}
+
+#feed-post {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    width: 500px;
+    height: 100%;
+    margin: 30px;
+    overflow: hidden;
+}
+
+#feed-post-poster:hover {
+    cursor: pointer;
+}
+
+#feed-post-post {
+    max-height: 400px;
+    width: 100%;
+}
+
+#feed-post-video {
+    height: 300px;
+    width: 100%;
+}
+
+#feed-post-profileImage {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#feed-post-header {
+    order: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+#feed-post-caption {
+    margin-left: 10px;
+}
+
+.icon-container {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap
+}
+
+.trash {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: red;
+    margin-left: auto;
+    display: flex;
+}
+
+.pencil {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-left: auto;
+    display: flex;
+}
+
+.edit-post {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.bottom-post-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.bottom-pencil {
+    cursor: pointer;
+}
+
+.bottom-caption-icon-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}

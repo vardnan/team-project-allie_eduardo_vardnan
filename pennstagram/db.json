@@ -1,0 +1,803 @@
+{
+  "users": [
+    {
+      "id": "12345",
+      "name": "Alice Johnson",
+      "username": "alice123",
+      "password": "password123",
+      "profileImage": "https://source.unsplash.com/3TLl_97HNJo",
+      "bio": "Just another passionate photographer 📸. Exploring the world one click at a time!",
+      "followers": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ],
+      "following": [
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "bob_smith"
+      ]
+    },
+    {
+      "id": "67890",
+      "name": "Bob Smith",
+      "username": "bob_smith",
+      "password": "bobspassword",
+      "profileImage": "https://source.unsplash.com/_M6gy9oHgII",
+      "bio": "Foodie and Traveler 🌮✈️. Exploring cuisines around the world!",
+      "followers": [
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ],
+      "following": [
+        "diana_p",
+        "eddie_k",
+        "charlie_b"
+      ]
+    },
+    {
+      "id": "11111",
+      "name": "Charlie Brown",
+      "username": "charlie_b",
+      "password": "charliespassword",
+      "profileImage": "https://source.unsplash.com/d1UPkiFd04A",
+      "bio": "Nature Lover 🌳. Breathing in the wild!",
+      "followers": [
+        "alice123",
+        "fiona_g",
+        "george_h"
+      ],
+      "following": [
+        "alice123",
+        "fiona_g",
+        "george_h"
+      ]
+    },
+    {
+      "id": "22222",
+      "name": "Diana Prince",
+      "username": "diana_p",
+      "password": "dianaspassword",
+      "profileImage": "https://source.unsplash.com/mEZ3PoFGs_k",
+      "bio": "Coffee addict ☕. Exploring cafes worldwide!",
+      "followers": [
+        "alice123",
+        "fiona_g",
+        "george_h"
+      ],
+      "following": [
+        "alice123",
+        "fiona_g",
+        "george_h"
+      ]
+    },
+    {
+      "id": "33333",
+      "name": "Edward King",
+      "username": "eddie_k",
+      "password": "eddiespassword",
+      "profileImage": "https://source.unsplash.com/iFgRcqHznqg",
+      "bio": "Fashion Blogger 💄👗. Setting the trend!",
+      "followers": [
+        "alice123",
+        "fiona_g",
+        "george_h"
+      ],
+      "following": [
+        "alice123",
+        "fiona_g",
+        "george_h"
+      ]
+    },
+    {
+      "id": "44444",
+      "name": "Fiona Greene",
+      "username": "fiona_g",
+      "password": "fionaspassword",
+      "profileImage": "https://source.unsplash.com/et_78QkMMQs",
+      "bio": "Tech Geek 💻. Unboxing the latest gadgets!",
+      "followers": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ],
+      "following": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ]
+    },
+    {
+      "id": "55555",
+      "name": "George Hill",
+      "username": "george_h",
+      "password": "georgespassword",
+      "profileImage": "https://picsum.photos/200",
+      "bio": "Bookworm 📚. Diving into fictional worlds!",
+      "followers": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k"
+      ],
+      "following": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k"
+      ]
+    },
+    {
+      "id": "66666",
+      "name": "Hannah White",
+      "username": "hannah_w",
+      "password": "hannahspassword",
+      "profileImage": "https://picsum.photos/200",
+      "bio": "Travel Vlogger 📹✈️. Capturing moments from my journeys!",
+      "followers": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ],
+      "following": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ]
+    },
+    {
+      "id": "77777",
+      "name": "Ivan Grant",
+      "username": "ivan_g",
+      "password": "ivanspassword",
+      "profileImage": "https://picsum.photos/200",
+      "bio": "Gym Enthusiast 🏋️‍♂️. Healthy body, healthy mind!",
+      "followers": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ],
+      "following": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ]
+    },
+    {
+      "id": "88888",
+      "name": "Julia Frost",
+      "username": "julia_f",
+      "password": "juliaspassword",
+      "profileImage": "https://picsum.photos/200",
+      "bio": "Chef 👩‍🍳. Spicing up the culinary world!",
+      "followers": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ],
+      "following": [
+        "bob_smith",
+        "charlie_b",
+        "diana_p",
+        "eddie_k",
+        "george_h"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "post001",
+      "poster": "alice123",
+      "imageUrl": "https://source.unsplash.com/I1zq15IcJek",
+      "caption": "Jelly fish!!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "id": "post002",
+      "poster": "alice123",
+      "imageUrl": "https://source.unsplash.com/kz-cO4p8A9A",
+      "caption": "Squirrel!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "id": "post002",
+      "poster": "alice123",
+      "imageUrl": "https://source.unsplash.com/NAg3sch8ep4",
+      "caption": "Cat!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "id": "post003",
+      "poster": "alice123",
+      "imageUrl": "https://source.unsplash.com/q5dCuxMm670",
+      "caption": "Cat again!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "id": "post004",
+      "poster": "alice123",
+      "imageUrl": "https://source.unsplash.com/uyn-RzT-Utw",
+      "caption": "Bidrds!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "id": "post001",
+      "poster": "bob_smith",
+      "imageUrl": "https://source.unsplash.com/IG9WiAR78zQ",
+      "caption": "red!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+    },
+    {
+      "id": "post002",
+      "poster": "bob_smith",
+      "imageUrl": "https://source.unsplash.com/2W-QWAC0mzI",
+      "caption": "Saturn!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+    },
+    {
+      "id": "post003",
+      "poster": "bob_smith",
+      "imageUrl": "https://source.unsplash.com/ScBkW9AKgcA",
+      "caption": "Neptune!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+    },
+    {
+      "id": "post004",
+      "poster": "bob_smith",
+      "imageUrl": "https://source.unsplash.com/gEta6dbzFy0",
+      "caption": "Colors!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+    },
+    {
+      "id": "post005",
+      "poster": "bob_smith",
+      "imageUrl": "https://source.unsplash.com/vhSz50AaFAs",
+      "caption": "Home!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+    },
+    {
+      "id": "post006",
+      "poster": "bob_smith",
+      "imageUrl": "https://source.unsplash.com/zpUsOQzByFg",
+      "caption": "Decor!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+    },
+    {
+      "id": "post001",
+      "poster": "charlie_b",
+      "imageUrl": "https://source.unsplash.com/pGr7g4l8EOI",
+      "caption": "Red flowers!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/d1UPkiFd04A"
+    },
+    {
+      "id": "post002",
+      "poster": "charlie_b",
+      "imageUrl": "https://source.unsplash.com/koy6FlCCy5s",
+      "caption": "Tulips!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/d1UPkiFd04A"
+    },
+    {
+      "id": "post001",
+      "poster": "diana_p",
+      "imageUrl": "https://source.unsplash.com/THlO6Mkf5uI",
+      "caption": "Sand!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+    },
+    {
+      "id": "post002",
+      "poster": "diana_p",
+      "imageUrl": "https://source.unsplash.com/q_kmIm1TpVU",
+      "caption": "Water!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+    },
+    {
+      "id": "post001",
+      "poster": "eddie_k",
+      "imageUrl": "https://source.unsplash.com/Nyvq2juw4_o",
+      "caption": "Buildings! ",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/iFgRcqHznqg"
+    },
+    {
+      "id": "post002",
+      "poster": "eddie_k",
+      "imageUrl": "https://source.unsplash.com/wpU4veNGnHg",
+      "caption": "Philly!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/iFgRcqHznqg"
+    },
+    {
+      "id": "post001",
+      "poster": "fiona_g",
+      "imageUrl": "https://source.unsplash.com/3BlVILvh9hM",
+      "caption": "Many trees!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/et_78QkMMQs"
+    },
+    {
+      "id": "post002",
+      "poster": "fiona_g",
+      "imageUrl": "https://source.unsplash.com/nTRDnDdDYk8",
+      "caption": "A park!",
+      "comments": [
+        {
+          "username": "bob_smith",
+          "comment": "Hey you are soo cool",
+          "commenterProfileImage": "https://source.unsplash.com/_M6gy9oHgII"
+        },
+        {
+          "username": "diana_p",
+          "comment": "Cool photo!",
+          "commenterProfileImage": "https://source.unsplash.com/mEZ3PoFGs_k"
+        },
+        {
+          "username": "julia_f",
+          "comment": "Awesome!!"
+        }
+      ],
+      "likes": [
+        "bob_smith",
+        "diana_p"
+      ],
+      "isVideo": false,
+      "timeOfPost": "5 hours ago",
+      "posterProfileImage": "https://source.unsplash.com/et_78QkMMQs"
+    },
+    {
+      "poster": "charlie_b",
+      "imageUrl": "https://source.unsplash.com/S5wUMrXdq1M",
+      "description": "more vlowers!",
+      "timeOfPost": "2023-10-19T20:53:53.345Z",
+      "comments": [],
+      "likes": [],
+      "isVideo": false,
+      "id": "odYcBOS",
+      "posterProfileImage": "https://source.unsplash.com/d1UPkiFd04A"
+    },
+    {
+      "poster": "alice123",
+      "imageUrl": "https://source.unsplash.com/nKC772R_qog",
+      "caption": "cat!!!",
+      "timeOfPost": "2023-10-19T22:54:44.930Z",
+      "comments": [],
+      "likes": [],
+      "isVideo": false,
+      "id": "ocYXHNK",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "poster": "alice123",
+      "imageUrl": "https://www.youtube.com/embed/i8n1gSw_o_8",
+      "caption": "Video!!",
+      "timeOfPost": "2023-10-19T22:58:09.185Z",
+      "comments": [],
+      "likes": [],
+      "isVideo": true,
+      "id": "X5U71WO",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    },
+    {
+      "poster": "alice123",
+      "imageUrl": "https://www.youtube.com/embed/uwphbCfcUT8",
+      "caption": "video!!!",
+      "timeOfPost": "2023-10-20T03:10:49.997Z",
+      "comments": [],
+      "likes": [],
+      "isVideo": true,
+      "id": "Bb5c_90",
+      "posterProfileImage": "https://source.unsplash.com/3TLl_97HNJo"
+    }
+  ]
+}

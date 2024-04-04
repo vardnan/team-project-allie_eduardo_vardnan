@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing that the CommentInput matches snapshot 1`] = `
+<div>
+  <textarea
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Add a comment"
+    type="text"
+    value=""
+  />
+</div>
+`;

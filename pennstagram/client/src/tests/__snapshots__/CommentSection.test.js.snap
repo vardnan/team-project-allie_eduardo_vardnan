@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing that the CommentSection matches snapshot 1`] = `
+<div>
+  <div
+    className="commentSection"
+  >
+    <div
+      className="caption"
+    >
+      <div
+        className="postUser"
+      >
+        <img
+          src="alice.jpg"
+        />
+        <div
+          id="captionText"
+        >
+          <h3>
+            Alice
+          </h3>
+          <p>
+            Caption text
+          </p>
+        </div>
+      </div>
+      <div />
+    </div>
+    <div>
+      <div
+        className="userComment"
+      >
+        <div
+          className="commentedUser"
+        >
+          <img
+            alt="Bob's profile"
+            src="bob.jpg"
+          />
+          <div
+            id="commentText"
+          >
+            <h3>
+              Bob
+            </h3>
+            <p>
+              Great post!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="userComment"
+      >
+        <div
+          className="commentedUser"
+        >
+          <img
+            alt="Alice's profile"
+            src="alice.jpg"
+          />
+          <div
+            id="commentText"
+          >
+            <h3>
+              Alice
+            </h3>
+            <p>
+              Thank you!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

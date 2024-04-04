@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "start": "cd pennstagram && cd server && node app.js",
+        "build": "cd pennstagram && npm install && cd client && npm install --legacy-peer-deps && cd ../server && npm install"
+    }
+}

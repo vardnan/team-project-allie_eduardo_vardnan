@@ -1,0 +1,20 @@
+#liked {
+    color: white;
+    background-color: #ff5571;
+    border-radius: 3px;
+}
+
+.likeButton {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.buttonBox {
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+
+.likeNumber {
+    margin-left: 8px;
+}

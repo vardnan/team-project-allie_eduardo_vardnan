@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing that the PhotoModal matches snapshot 1`] = `
+<div
+  className="photoModalWrapper"
+  style={
+    Object {
+      "opacity": 0,
+      "transform": "scale(0.95) translateZ(0)",
+    }
+  }
+>
+  <div
+    className="photoModalImage"
+  >
+    <img
+      alt="Caption text"
+      src="image.jpg"
+    />
+  </div>
+  <div
+    className="photoModalSidePanel"
+  >
+    <button
+      className="closeButton"
+      onClick={[MockFunction]}
+    >
+      X
+    </button>
+    <div
+      className="sidePanelHeader"
+    >
+      <img
+        alt="Alice"
+        className="profileImg"
+        src="profile.jpg"
+      />
+      <h3>
+        Alice
+      </h3>
+    </div>
+    <div
+      className="sidePanelComments"
+    >
+      <div
+        data-testid="comment-section"
+      />
+    </div>
+    <div
+      className="actionSection"
+    >
+      <div
+        className="actionButtonContainer"
+      >
+        <div
+          className="actionButtons"
+        >
+          <button
+            data-testid="like-button"
+          />
+          <button
+            data-testid="comment-button"
+          />
+        </div>
+        <p>
+          0
+           likes
+        </p>
+      </div>
+      <div
+        className="commentInput"
+      >
+        <textarea
+          data-testid="comment-input"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
