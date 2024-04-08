@@ -1,7 +1,7 @@
 const { MongoClient, ObjectId } = require('mongodb');
 
 async function setHiddenStatus(postId) {
-  const uri = process.env.REACT_APP_MONGO_URI;
+  const uri = process.env.MONGO_URI;
   const client = new MongoClient(uri);
 
   try {
